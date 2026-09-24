@@ -24,3 +24,7 @@ jobs:
 
       - name: Ejecutar pruebas
         run: pytest
+
+      - name: Construir imagen Docker
+        run: docker build -t devops_workshop .
+        
